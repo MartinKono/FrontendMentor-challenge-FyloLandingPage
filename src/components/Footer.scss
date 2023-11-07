@@ -1,0 +1,129 @@
+$footer-background-color: hsl(216, 53%, 9%);
+$para-color: hsl(0, 0%, 76%);
+$cyan-color: hsl(176, 68%, 64%);
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 100px;
+
+    width: 100%;
+
+    background-color: $footer-background-color;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 60px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 100px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 25px;
+
+    width: 300px;
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        color: $para-color;
+    }
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 15px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        color: $para-color;
+    }
+}
+
+.email {
+    @extend .phone;
+}
+
+.links-1 {
+    list-style: none;
+
+    width: 90px;
+
+    li {
+        a {
+            font-family: 'Open Sans', sans-serif;
+            color: $para-color;
+            text-decoration: none
+        }
+
+        &:hover {
+            font-weight: 700;
+            color: lighten($para-color, 50%);
+        }
+    }
+}
+
+.links-2 {
+    @extend .links-1;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.circle {
+
+    border: 1px solid $para-color;
+    border-radius: 50%;
+    padding: 5px 5px 0px 5px;
+
+    a {
+        color: $para-color;
+        font-size: 20px;
+    }
+
+    &:hover {
+        border: 1px solid $cyan-color;
+
+        a {
+            color: $cyan-color;
+        }
+    }
+}
