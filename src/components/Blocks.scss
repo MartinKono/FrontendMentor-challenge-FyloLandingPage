@@ -1,0 +1,53 @@
+$block-background-color: hsl(218, 28%, 13%);
+$heading-color: hsl(0, 0%, 100%);
+$para-color: hsl(0, 0%, 76%);
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    background-color: $block-background-color;
+}
+
+.blocks-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 100px;
+
+    max-width: 1200px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    
+    width: 450px;
+
+    h2 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+
+        color: $heading-color;
+
+        margin-top: 30px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+
+        color: $para-color;
+
+        text-align: center;
+
+        margin-top: 10px;
+    }
+}
