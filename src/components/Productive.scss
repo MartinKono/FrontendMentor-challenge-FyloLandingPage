@@ -1,0 +1,51 @@
+$productive-background-color: hsl(218, 28%, 13%);
+$heading-color: hsl(0, 0%, 100%);
+$para-color: hsl(0, 0%, 76%);
+$color-cyan: hsl(176, 68%, 64%);
+
+.productive {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+
+    width: 100%;
+
+    background-color: $productive-background-color;
+
+    padding-top: 120px;
+
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+
+        color: $heading-color;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        color: $para-color;
+
+        margin-top: 20px;
+    }
+
+    #link {
+        border-bottom: 2px solid $color-cyan;
+        padding-bottom: 3px;
+        width: 162px;
+        a { 
+            text-decoration: none;
+            color: $color-cyan;
+        }
+
+        &:hover {
+            border-bottom: 2px solid $para-color;
+
+            a {
+                color: $para-color;
+            }
+        }
+    }
+}
