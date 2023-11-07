@@ -34,8 +34,13 @@ $color-cyan: hsl(176, 68%, 64%);
     #link {
         border-bottom: 2px solid $color-cyan;
         padding-bottom: 3px;
-        width: 162px;
+        width: 170px;
+
         a { 
+            display: flex;
+            align-items: center;
+            gap: 7px;
+
             text-decoration: none;
             color: $color-cyan;
         }
