@@ -1,0 +1,47 @@
+$navbar-background-color: hsl(217, 28%, 15%);
+$nav-links-color: hsl(0, 0%, 69%);
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    @include flex-row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 50px;
+
+    background-color: $navbar-background-color;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        gap: 40px;
+
+        list-style: none;
+
+        li {
+            a {
+                color: $nav-links-color;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                text-decoration: none;
+
+                &:hover {
+                    color: lighten($nav-links-color, 50%);
+                    font-weight: 700;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}
