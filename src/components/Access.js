@@ -12,7 +12,8 @@ const Access = () => {
     const validRegex = /^^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
     if (validRegex.test(email)) {
-        console.log('Sign up!!!')
+        alert("Thanks for signing up!")
+        setEmail("")
     } else {
         setError(true)
         setTimeout(() => setError(false), 2000)
