@@ -4,10 +4,12 @@ import IconLocation from '../images/svgs/IconLocation'
 import IconPhone from '../images/svgs/IconPhone'
 import IconEmail from '../images/svgs/IconEmail'
 import { BiLogoInstagram, BiLogoTwitter, BiLogoFacebook} from 'react-icons/bi'
+import Access from './Access'
 
 const Footer = () => {
   return (
     <footer>
+        <Access/>
         <div className='footer-content'>
             <Logo/>
             <div className='footer-container'>

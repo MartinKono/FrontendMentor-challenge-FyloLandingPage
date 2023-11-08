@@ -1,0 +1,94 @@
+$heading-color: hsl(0, 0%, 100%);
+$para-color: hsl(0, 0%, 76%);
+$error-color: hsl(0, 100%, 63%);
+$background-color: hsl(217, 28%, 15%);
+$button-background-color: hsl(198, 60%, 50%);
+$button-text-color: hsl(0, 0%, 100%);
+
+
+.access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 50px 50px 20px 50px;
+
+    border-radius: 7px;
+
+    background-color: $background-color;
+
+    width: 850px;
+
+    margin-top: -150px;
+
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        color: $heading-color;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: $para-color;
+    }
+
+    .access-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+
+        gap: 30px;
+
+        .email-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            gap: 5px;
+
+            p {
+                font-family: 'Raleway', sans-serif;
+                font-weight: 700; 
+                font-size: 11px;
+
+                color: $error-color;
+                
+                margin-left: 30px;
+            }
+        }
+
+        input[type=text]{
+            padding: 15px 20px;
+            border: none;
+            border-radius: 50px;
+            width: 550px;
+
+            font-family: 'Raleway', sans-serif;
+
+            outline: none;
+        }
+
+        input[type=submit]{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            color: $button-text-color;
+
+            border: none;
+            border-radius: 50px;
+            background-color: $button-background-color;
+            padding: 15px 20px;
+
+            &:hover {
+                cursor: pointer;
+                background-color: lighten($button-background-color, 15%);
+            }
+        }
+    }
+
+    
+}
