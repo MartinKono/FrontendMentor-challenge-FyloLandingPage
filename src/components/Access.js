@@ -23,7 +23,7 @@ const Access = () => {
   return (
     <div className='access'>
         <h1>Get early access today</h1>
-        <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support tem would be happy to help you.</p>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
         <form className='access-form' onSubmit={formHandler}>
             <div className='email-container'>
                 <input type='text' placeholder='email@example.com' onChange={(event)=>{setEmail(event.target.value)}} value={email || ''}/>
