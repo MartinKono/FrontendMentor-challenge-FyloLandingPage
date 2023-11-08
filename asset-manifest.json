@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FrontendMentor-challenge-FyloLandingPage/static/css/main.dfa1d630.css",
+    "main.js": "/FrontendMentor-challenge-FyloLandingPage/static/js/main.a4d5bebd.js",
+    "static/media/illustration-intro.png": "/FrontendMentor-challenge-FyloLandingPage/static/media/illustration-intro.c20d85255009f195b4a6.png",
+    "static/media/illustration-stay-productive.png": "/FrontendMentor-challenge-FyloLandingPage/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
+    "static/media/BgCurvy.svg": "/FrontendMentor-challenge-FyloLandingPage/static/media/BgCurvy.953dbf39a0ba9d537f9d.svg",
+    "index.html": "/FrontendMentor-challenge-FyloLandingPage/index.html",
+    "main.dfa1d630.css.map": "/FrontendMentor-challenge-FyloLandingPage/static/css/main.dfa1d630.css.map",
+    "main.a4d5bebd.js.map": "/FrontendMentor-challenge-FyloLandingPage/static/js/main.a4d5bebd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfa1d630.css",
+    "static/js/main.a4d5bebd.js"
+  ]
+}
