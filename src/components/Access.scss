@@ -91,6 +91,41 @@ $button-text-color: hsl(0, 0%, 100%);
             }
         }
     }
+}
 
-    
+@media (max-width: 850px) {
+    .access {
+        width: 750px;
+        .access-form {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .access {
+        width: 650px;
+    }
+}
+
+@media (max-width: 650px) {
+    .access {
+        width: 350px;
+
+        h1 {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .access-form {
+            input[type=text] {
+                width: 300px;
+            }
+
+            input[type=submit] {
+                width: 300px;
+            }
+        }
+    }
 }

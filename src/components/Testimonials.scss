@@ -91,3 +91,17 @@ $para-color: hsl(0, 0%, 76%);
     }
     
 }
+
+@media (max-width: 885px) {
+    .testimonial-icon {
+        margin-left: -20px;
+    }
+}
+
+@media (max-width: 470px) {
+    .testimonial {
+        p{
+            text-align: center;
+        }
+    }
+}

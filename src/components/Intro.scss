@@ -62,3 +62,37 @@ $button-text-color: hsl(0, 0%, 100%);
         }
     }
 }
+
+@media (min-width: 1440px) {
+    .intro {
+        background-position-y: 735px;
+    }
+}
+
+@media (max-width: 720px) {
+    .intro {
+
+        img {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .intro {
+
+        img {
+            width: 300px;
+        }
+
+        h1 {
+            font-size: 30px;
+            padding: 0px 20px;
+        }
+
+        p {
+            font-size: 20px;
+            padding: 0px 20px;
+        }
+    }
+}

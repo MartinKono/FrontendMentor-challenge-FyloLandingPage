@@ -54,3 +54,42 @@ $color-cyan: hsl(176, 68%, 64%);
         }
     }
 }
+
+@media (max-width: 990px) {
+    .productive {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 620px) {
+    .productive {
+        flex-direction: column;
+    }
+
+    .productive {
+        img {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 570px) {
+    .productive-info {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    .productive-info {
+        margin-left: 50px;
+        h1 {
+            font-size: 25px;
+        }
+    }
+
+    .productive {
+        img {
+            width: 340px;
+        }
+    }
+}
